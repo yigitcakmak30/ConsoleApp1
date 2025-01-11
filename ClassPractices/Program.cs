@@ -23,8 +23,15 @@ namespace ClassPractices
             kurs3.kursEgitmen = "Giraffe Academy";
             kurs3.kursBittiMi = true;
             kurs3.kursBitirmeOrani = 100;
+            
+            Kurs kurs4 = new Kurs();
+            kurs4.kursAdi = "GoLang";
+            kurs4.kursEgitmen = "YigitCakmak";
+            kurs4.kursBittiMi = false;
+            kurs4.kursBitirmeOrani = 32;
 
-            Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3 };
+
+            Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3, kurs4 };
 
             foreach (var kurs in kurslar)
             {
